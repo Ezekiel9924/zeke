@@ -1,0 +1,120 @@
+$ cd /workspace/shadcn-ui && pnpm run lint && pnpm run build
+
+> anything-to-pdf@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> anything-to-pdf@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js (1:7186): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js (1:13561): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 2269 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.84 kB │ gzip:   0.67 kB
+dist/assets/index-_kKW1EyV.css   62.47 kB │ gzip:  11.00 kB
+dist/assets/index-BIbiyS58.js   891.87 kB │ gzip: 323.79 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.45s
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> anything-to-pdf@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js (1:7186): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js (1:13561): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 2269 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.84 kB │ gzip:   0.67 kB
+dist/assets/index-_kKW1EyV.css   62.47 kB │ gzip:  11.00 kB
+dist/assets/index-BIbiyS58.js   891.87 kB │ gzip: 323.79 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.25s
+$ cd /workspace/shadcn-ui && pnpm run lint && pnpm run build
+
+
+> anything-to-pdf@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> anything-to-pdf@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js (1:7186): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js (1:13561): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/.pnpm/react-helmet-async@1.3.0_react-dom@18.3.1_react@18.3.1/node_modules/react-helmet-async/lib/index.module.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 2272 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.84 kB │ gzip:   0.67 kB
+dist/assets/index-ByY2dEjl.css   64.97 kB │ gzip:  11.38 kB
+dist/assets/index--DPxNLcG.js   918.41 kB │ gzip: 331.70 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.72s
+$ cd /workspace/shadcn-ui && pnpm i && pnpm run lint
+
+Lockfile is up to date, resolution step is skipped
+Packages: +431
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.../node_modules/@swc/core postinstall$ node postinstall.js
+.../node_modules/@swc/core postinstall: Done
+.../esbuild@0.21.5/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.25.8/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.21.5/node_modules/esbuild postinstall: Done
+.../esbuild@0.25.8/node_modules/esbuild postinstall: Done
+
+Done in 1.5s
+
+> anything-to-pdf@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+$ cd /workspace/shadcn-ui && pnpm run lint
+
+
+> anything-to-pdf@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+

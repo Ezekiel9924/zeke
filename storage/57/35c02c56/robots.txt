@@ -1,0 +1,6 @@
+# SnapToPDF Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://snaptopdf.com/sitemap.xml

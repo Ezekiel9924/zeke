@@ -1,0 +1,9 @@
+$ cd /workspace/shadcn-ui && npm install canvas-confetti && npm install --save-dev @types/canvas-confetti && pnpm run lint
+npm notice 
+npm notice New major version of npm available! 10.2.4 -> 11.5.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v11.5.2>
+npm notice Run `npm install -g npm@11.5.2` to update!
+npm notice 
+npm ERR! Cannot read properties of null (reading 'matches')
+
+npm ERR! A complete log of this run can be found in: /root/.npm/_logs/2025-08-10T01_33_26_803Z-debug-0.log

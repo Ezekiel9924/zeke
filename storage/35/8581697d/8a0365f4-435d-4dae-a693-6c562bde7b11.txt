@@ -1,0 +1,61 @@
+$ cd /workspace/shadcn-ui
+$ ls -la
+
+total 1951
+drwxr-xr-x  87 root root 606208 Aug  9 16:57 .
+drwxr-xr-x 141 root root 835584 Aug  9 16:57 ..
+-rw-r--r--   1 root root    253 Jun 16 08:19 .gitignore
+drwxr-xr-x   3 root root   8192 Jun 16 08:19 .mgx
+-rw-r--r--   1 root root   1138 Jun 16 08:19 README.md
+-rw-r--r--   1 root root    414 Jun 16 08:19 components.json
+-rw-r--r--   1 root root    789 Jun 16 08:19 eslint.config.js
+-rw-r--r--   1 root root    653 Jul 15 23:45 index.html
+drwxr-xr-x   2 root root      6 Aug  9 16:57 node_modules
+-rw-r--r--   1 root root   2776 Jul 15 23:45 package.json
+-rw-r--r--   1 root root 184790 Jul 22 07:33 pnpm-lock.yaml
+-rw-r--r--   1 root root     80 Jun 16 08:19 postcss.config.js
+drwxr-xr-x   4 root root  12288 Jun 16 08:19 public
+drwxr-xr-x  66 root root 335872 Jun 16 08:19 src
+-rw-r--r--   1 root root   2836 Jun 16 08:19 tailwind.config.ts
+-rw-r--r--   1 root root    818 Jun 16 08:19 template_config.json
+-rw-r--r--   1 root root    652 Jun 16 08:19 tsconfig.app.json
+-rw-r--r--   1 root root    381 Jun 16 08:19 tsconfig.json
+-rw-r--r--   1 root root    481 Jun 16 08:19 tsconfig.node.json
+-rw-r--r--   1 root root    430 Jul 15 23:45 vite.config.ts
+$ mkdir -p src/components/pdf-converter
+
+$ cd /workspace/shadcn-ui && pnpm run lint
+
+
+> anything-to-pdf@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+$ pnpm install
+
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 6, reused 0, downloaded 0, added 0
+Progress: resolved 56, reused 50, downloaded 0, added 0
+Progress: resolved 244, reused 238, downloaded 4, added 0
+Progress: resolved 414, reused 391, downloaded 13, added 0
+ WARN  1 deprecated subdependencies found: rollup-plugin-terser@7.0.2
+Progress: resolved 505, reused 415, downloaded 14, added 0
+Packages: +16
+++++++++++++++++
+Progress: resolved 505, reused 415, downloaded 14, added 14
+Progress: resolved 505, reused 415, downloaded 15, added 14
+Progress: resolved 505, reused 415, downloaded 15, added 15
+Progress: resolved 505, reused 415, downloaded 16, added 15
+Progress: resolved 505, reused 415, downloaded 16, added 16
+Progress: resolved 505, reused 415, downloaded 16, added 16, done
+
+dependencies:
++ @heroicons/react 2.2.0
++ pdf-lib 1.17.1
++ react-dropzone 14.3.8
++ react-helmet 6.1.0
++ react-helmet-async 1.3.0 (2.0.5 is available)
+
+devDependencies:
++ @types/react-helmet 6.1.11
+
+Done in 28.2s

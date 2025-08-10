@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Allow all bots to access the PDF converter and all other pages
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# XML Sitemap
+Sitemap: https://yourwebsite.com/sitemap.xml
